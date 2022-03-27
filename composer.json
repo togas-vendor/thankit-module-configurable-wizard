@@ -1,0 +1,20 @@
+{
+  "name": "thankit/module-configurable-wizard",
+  "description": "Magento 2 New Configurable product - selecting existing simple products manually",
+  "type": "magento2-module",
+  "require": {
+    "magento/module-configurable-product": "100.3.*"
+  },
+  "license": [
+    "proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ThankIT\\ConfigurableWizard\\": "ThankIT/ConfigurableWizard"
+    }
+  },
+  "minimum-stability": "stable"
+}
