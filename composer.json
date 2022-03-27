@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "files": [
-      "registration.php"
+      "ThankIT/ConfigurableWizard/registration.php"
     ],
     "psr-4": {
       "ThankIT\\ConfigurableWizard\\": "ThankIT/ConfigurableWizard"
